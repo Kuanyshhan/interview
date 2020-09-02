@@ -25,14 +25,35 @@
 
 
 //  строка и число
-console.log(1 + '2') // string
-console.log(1 + 2 + '3') 
-console.log('' - 5 + 16)
-console.log('6' - 5) //number
-console.log('1' + 5 - 2)
-console.log('8' * '3') //number
-console.log('8px' - '3')
-console.log('px' + 1 + 5)
-console.log(1 + 2 + 'px')
-console.log(null + 2)
-console.log(undefined + 6)
+// console.log(1 + '2') // string
+// console.log(1 + 2 + '3') 
+// console.log('' - 5 + 16)
+// console.log('6' - 5) //number
+// console.log('1' + 5 - 2)
+// console.log('8' * '3') //number
+// console.log('8px' - '3')
+// console.log('px' + 1 + 5)
+// console.log(1 + 2 + 'px')
+// console.log(null + 2)
+// console.log(undefined + 6)
+
+// == vs ===
+
+// console.log(2 == '2')
+// console.log(2 === '2')
+// console.log(null == undefined)
+// console.log(null === undefined)
+// console.log('0' == false)
+// console.log('0' === false)
+
+// =================
+
+console.log(false == '')
+console.log(false == [])
+console.log(false == {})
+console.log('' == 0)
+console.log('' == [])
+console.log('' == {})
+console.log(0 == [])
+console.log(0 == {})
+console.log(0 == null)
